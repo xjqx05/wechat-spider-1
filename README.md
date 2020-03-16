@@ -1,30 +1,9 @@
 # 微信爬虫
 
 <!--<!--**该爬虫为基于中间人的方式，时效性不高，且可能会封号，请酌情使用。
-若需`长期``稳定``实时`监控大批量公众号，可使用如下api接口：**
-
-[http://182.92.108.94:2119/client/wechat_article/document](http://182.92.108.94:2119/client/wechat_article/document)
--->
-
-以下为部署文档，技术文档请查看：[https://t.zsxq.com/7ubmqNJ](https://t.zsxq.com/7ubmqNJ)
-
-## 功能：
-
-- [x] 检测公众号每日新发文章
-- [x] 抓取公众号信息
-- [x] 抓取文章列表
-- [x] 抓取文章信息
-- [x] 抓取阅读量、点赞量、评论量
-- [x] 抓取评论信息
-- [x] 临时链接转永久链接
-
-打包好的执行文件下载地址
-
-[https://zbkj-service.oss-cn-beijing.aliyuncs.com/wechat/wechat_spider.zip](https://zbkj-service.oss-cn-beijing.aliyuncs.com/wechat/wechat_spider.zip)
 
 ## 特色：
 
-1. **免安装**：支持mac、window，双击软件即可执行
 2. **自动化**：只需要配置好待监控的公众号列表，启动软件后即可每日自动抓取公众号及文章等信息
 3. **好对接**：抓取到的数据使用mysql存储，方便处理数据
 4. **不漏采**：采用任务状态标记的方式，防止遗漏每一个公众号、每一篇文章
